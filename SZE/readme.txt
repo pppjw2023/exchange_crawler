@@ -2,8 +2,8 @@ The file "深交所公司名单201712.txt" contains the codes of all companies l
 
 The code file "深交所抓取命令.py" performs the following tasks:
 
-1. Uses Selenium to launch the Chrome browser and access the Shanghai Stock Exchange website,
-2. Reads all company codes listed on the Shanghai Stock Exchange,
+1. Uses Selenium to launch the Chrome browser and access the Shenzhen Stock Exchange website,
+2. Reads all company codes listed on the Shenzhen Stock Exchange,
 3. Inputs each company code and the desired time period into the announcement search bar on the exchange's webpage, then simulates clicking the "Search" button,
 4. Extracts all announcement titles and download URLs using XPath,
 5. Writes the collected data into a text file.
